@@ -30,7 +30,7 @@
 После загрузки консоли набираем в консоли
 ```bash
 rm -r IDM
-git clone https://github.com/Elchinchel/IDM.git
+git clone https://github.com/rvolov299/IDM
 ```
 Далее переходим во вкладку *Web* и нажимаем *Reload * `имя аккаунта`.pythonanywhere.com
 
@@ -65,7 +65,7 @@ git clone https://github.com/Elchinchel/IDM.git
 ```bash
 cp IDM/database.json database.json
 rm -rf IDM
-git clone https://github.com/Elchinchel/IDM.git
+git clone https://github.com/rvolov299/IDM
 cp database.json IDM/database.json
 ```
 
@@ -103,22 +103,3 @@ cp database.json IDM/database.json
 |!д повтори[новая строка]Текст| Дежурный повторит текст (только для доверенных пользователей) |
 
 Так же обрабатываются все стандартные сигналы, кроме `hereApi` и `ignoreMessages`. О стандартных сигналах Вы можете узнать в [статье](https://vk.com/@iris_cm-api2).
-
-
-## Благодарности
-
-Спасибо за исходный код:
-
-[Юрий Юшманов](https://vk.com/llordrall)
-
-Спасибо за помощь в тестировании:
-
-[Ридэль Яумбаев](https://vk.com/ss_20)
-
-[Влад Богданов](https://vk.com/gamtz)
-
-[Владислав Джениа](https://vk.com/klubnishhhka)
-
-[Димитрий Ким](https://vk.com/iris_wolf)
-
-
