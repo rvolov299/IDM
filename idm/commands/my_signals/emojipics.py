@@ -33,10 +33,6 @@ def fpic(event: MySignalEvent) -> str:
 
 @dp.my_signal_event_handle('луна')
 def notthisdezh(event: MySignalEvent) -> str:
-    msg = new_message(event.api, event.chat.peer_id, message='⚠ Не в этом дежурном')
-    time.sleep(3)
-    edit_message(event.api, event.chat.peer_id, msg, message='Ладно, хорошо, так уж и быть...')
-    time.sleep(2)
     pic = '🌑🌒🌓🌔🌕🌖🌗🌘'
     for i in 0, 1, 2, 3, 4, 5, 6, 7, 8:
         edit_message(event.api, event.chat.peer_id, msg, message=pic)
